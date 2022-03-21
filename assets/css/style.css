@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: maroon;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+footer {
+    background: #000000;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+nav {
+    background-color: #c29a19;
+}
+
+nav ul li a {
+    margin: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: #000000;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+img {
+    width: 50%;
+    margin: 20px;
+    flex: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px #000000
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me h2 {
+    color: white;
+}
+
+.about-me p {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: #c29a19;
+    border: solid 5px #000000;
+} 
+
+.my-skills, .projects {
+    text-align: center;
+}
+
+.my-skills h2 {
+    color: white;
+}
+
+.my-skills div { 
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: #c29a19;
+    border: solid 5px #000000;
+    text-align: left; 
+}
+
+.projects div {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: #c29a19;
+    border: solid 5px #000000;     
+}
+
+.projects img {
+    border: none;
+    width: 100%;
+}
+
+.projects a {
+    color: #000000;
+}
+
+.contact-me h2 {
+    text-align: center;
+    color: #000000;
+}
+
+.contact-me div {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    background-color: #c29a19;
+    border: solid 5px #000000;
+    color: #000000; 
+}
+
+.contact-me li {
+    color: #000000;
+}
+
+.projects, .contact-me h2 {
+    color: white;
+}
+
